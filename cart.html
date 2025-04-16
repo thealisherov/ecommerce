@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>minishop</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./app.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="header_container container">
+         <div class="logo">
+        <h2>minishop</h2>
+         </div>
+           <nav>
+                 <ul>
+                     <li><a href="#">Home</a></li>
+                     <li><a href="#">Products</a></li>
+                     <li><a href="#">About</a></li>
+                     <li><a href="#">Contact</a></li>
+                 </ul>
+             </nav>
+         <div class="tools">
+             <div class="home">
+     <a href="./index.html"><img src="./images/icons8-home-50.png" alt=""></a>
+             </div>
+             <div class="cart">
+     <a href="./cart.html"><img src="./images/icons8-cart-50.png" alt=""></a>
+             </div>
+         </div>
+        </div>
+     
+     </header>
+     <div class="cart-modal" id="cartModal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Your Cart</h2>
+            <div class="cart-items" id="cartItems">
+          <!-- place for downloaded things -->
+            </div>
+            <div class="cart-total">
+                <p>Total: $<span id="cartTotal">0</span></p>
+                <button class="checkout-btn">Checkout</button>
+            </div>
+        </div>
+    </div>
+
+<footer>
+    <p>&copy; Produced by thealisherovdev</p>
+</footer>
+</body>
+</html>
